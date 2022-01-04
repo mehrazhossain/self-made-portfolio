@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #202124;
+}
+h1 {
+  font-weight: 400;
+  font-size: 40px;
+  color: #eaeaea;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #eaeaea;
+  padding-top: 8px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #eaeaea;
+  padding-top: 8px;
+}
+span {
+  color: #f5c32a;
+}
+.first-para {
+  color: #eaeaea;
+  padding-top: 10px;
+  padding-bottom: 5%;
+}
+.first-segment {
+  display: flex;
+}
+.half-width {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 50%;
+  padding-left: 5%;
+  text-align: justify;
+}
+
+.half-width img {
+  width: 60%;
+  border-radius: 50%;
+  padding-left: 5%;
+}
+.link-button {
+  text-decoration: none;
+  color: #202124;
+  background: gray;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.dream-big {
+  display: flex;
+  padding-bottom: 10%;
+}
+
+.img2 {
+  width: 80%;
+}
+.segment-2 {
+  padding-right: 5%;
+}
+.experience-section {
+  display: flex;
+  margin-bottom: 150px;
+}
+.ex-heading {
+  font-size: 40px;
+}
+.ex-card {
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
+  border-radius: 5px;
+  text-align: justify;
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+.ex-card-2 {
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
+  border-radius: 5px;
+  text-align: justify;
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, cyan);
+  border-image-slice: 1;
+}
+.ex-heading {
+  padding-bottom: 50px;
+  margin-left: 5%;
+}
+footer {
+  text-align: center;
+  padding-bottom: 5%;
+  color: #eaeaea;
+}
